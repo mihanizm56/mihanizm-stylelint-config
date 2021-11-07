@@ -60,5 +60,14 @@ module.exports = {
     'value-list-comma-newline-before': 'never-multi-line',
     'value-list-comma-space-after': 'always',
     'value-no-vendor-prefix': true,
+    "selector-class-pattern": null,
+    "comment-no-empty": true,
+    "scss/comment-no-empty": null,
+    "scss/at-import-partial-extension": null,
+    "shorthand-property-no-redundant-values": null,
+    "alpha-value-notation": "number",
+    "keyframes-name-pattern": null,
+    "selector-id-pattern": null,
+    "color-function-notation": "legacy"
   },
 };

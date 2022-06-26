@@ -1,6 +1,6 @@
 {
   "name": "@wildberries/stylelint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
@@ -16,7 +16,7 @@
     "stylelint-scss": "4.2.0"
   },
   "peerDependencies": {
-    "postcss": "8.3.11"
+    "postcss": "8.4.14"
   },
   "scripts": {
     "commit": "git add . && git commit --no-edit",

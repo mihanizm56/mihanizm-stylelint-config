@@ -1,1 +1,0 @@
-postcss нужен для работы stylelint

@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-recommended-scss'],
-  plugins: ['stylelint-order'],
+  plugins: ['stylelint-order','stylelint-max-lines'],
   rules: {
     'at-rule-empty-line-before': [
       'always',
@@ -29,7 +29,13 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
     'max-empty-lines': 2,
-    'max-line-length': null,
+    'max-line-length': [
+      80,
+      {
+        ignore: ['non-comments'],
+        ignorePattern:["/^@import\\s+/"]
+      },
+    ],
     'media-feature-name-no-vendor-prefix': true,
     'media-feature-parentheses-space-inside': 'never',
     'media-feature-range-operator-space-after': 'always',
@@ -68,6 +74,7 @@ module.exports = {
     "alpha-value-notation": "number",
     "keyframes-name-pattern": null,
     "selector-id-pattern": null,
-    "color-function-notation": "legacy"
+    "color-function-notation": "legacy",
+    "pitcher/max-lines": 300
   },
 };

@@ -32,8 +32,7 @@ module.exports = {
     'max-line-length': [
       80,
       {
-        ignore: ['non-comments'],
-        ignorePattern:["/^@import\\s+/"]
+        ignore: ['comments'],
       },
     ],
     'media-feature-name-no-vendor-prefix': true,

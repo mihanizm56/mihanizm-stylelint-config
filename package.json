@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/stylelint-config",
-  "version": "2.2.0-beta.0",
+  "version": "2.2.0-beta.1",
   "description": "stylelint",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
@@ -13,8 +13,7 @@
     "stylelint-config-standard": "37.0.0",
     "stylelint-order": "6.0.4",
     "stylelint-scss": "6.11.0",
-    "stylelint": "16.14.1",
-    "stylelint-max-lines": "0.1.0"
+    "stylelint": "16.14.1"
   },
   "scripts": {
     "commit": "git add . && git commit --no-edit",

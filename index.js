@@ -28,6 +28,7 @@ module.exports = {
     'font-weight-notation': 'numeric',
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
+    "import-notation":null,
     // 'max-empty-lines': 2,
     // 'max-line-length': [
     //   80,
@@ -35,6 +36,7 @@ module.exports = {
     //     ignore: ['comments'],
     //   },
     // ],
+    'media-feature-range-notation':'prefix',
     'media-feature-name-no-vendor-prefix': true,
     // 'media-feature-parentheses-space-inside': 'never',
     // 'media-feature-range-operator-space-after': 'always',
@@ -69,6 +71,7 @@ module.exports = {
     "comment-no-empty": true,
     "scss/comment-no-empty": null,
     "scss/at-import-partial-extension": null,
+    "scss/load-partial-extension": null,
     "shorthand-property-no-redundant-values": null,
     "alpha-value-notation": "number",
     "keyframes-name-pattern": null,

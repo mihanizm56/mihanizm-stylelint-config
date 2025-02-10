@@ -73,7 +73,7 @@ module.exports = {
     "alpha-value-notation": "number",
     "keyframes-name-pattern": null,
     "selector-id-pattern": null,
-    "color-function-notation": "legacy",
-    "pitcher/max-lines": 300
+    "color-function-notation": "legacy"
+    // "pitcher/max-lines": 300
   },
 };

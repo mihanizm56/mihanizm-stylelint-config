@@ -1,6 +1,6 @@
 {
   "name": "@mihanizm56/stylelint-config",
-  "version": "2.2.0-beta.1",
+  "version": "2.2.0-beta.2",
   "description": "stylelint",
   "devDependencies": {
     "@commitlint/cli": "9.1.2",
